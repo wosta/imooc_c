@@ -1,0 +1,10 @@
+//
+// Created by olive on 2021/7/17.
+//
+#include <stdio.h>
+
+int main() {
+  printf("Hello, World!\n");
+  return 0;
+}
+

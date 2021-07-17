@@ -1,0 +1,3 @@
+D:/workspace/C/imooc_c/chapter6/cmake-build-debug/CMakeFiles/chapter6.dir
+D:/workspace/C/imooc_c/chapter6/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/workspace/C/imooc_c/chapter6/cmake-build-debug/CMakeFiles/rebuild_cache.dir

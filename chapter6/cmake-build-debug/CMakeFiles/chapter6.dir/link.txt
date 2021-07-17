@@ -1,0 +1,2 @@
+D:\Develop\mysys2\mingw64\bin\ar.exe qc libchapter6.a CMakeFiles/chapter6.dir/library.c.obj
+D:\Develop\mysys2\mingw64\bin\ranlib.exe libchapter6.a
