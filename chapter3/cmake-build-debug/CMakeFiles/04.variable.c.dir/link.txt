@@ -1,0 +1,3 @@
+"D:\Develop\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\04.variable.c.dir/objects.a
+D:\Develop\mysys2\mingw64\bin\ar.exe cr CMakeFiles\04.variable.c.dir/objects.a @CMakeFiles\04.variable.c.dir\objects1.rsp
+D:\Develop\mysys2\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\04.variable.c.dir/objects.a -Wl,--no-whole-archive -o 04.variable.c.exe -Wl,--out-implib,lib04.variable.c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\04.variable.c.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"D:\Develop\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\02.data_types_char.c.dir/objects.a
+D:\Develop\mysys2\mingw64\bin\ar.exe cr CMakeFiles\02.data_types_char.c.dir/objects.a @CMakeFiles\02.data_types_char.c.dir\objects1.rsp
+D:\Develop\mysys2\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\02.data_types_char.c.dir/objects.a -Wl,--no-whole-archive -o 02.data_types_char.c.exe -Wl,--out-implib,lib02.data_types_char.c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\02.data_types_char.c.dir\linklibs.rsp

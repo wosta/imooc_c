@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/workspace/C/imooc_c/chapter3/01.data_type.c" "D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/main.c.dir/01.data_type.c.obj"
-  "D:/workspace/C/imooc_c/chapter3/main.c" "D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/main.c.dir/main.c.obj"
+  "D:/workspace/C/imooc_c/chapter3/03.data_types_float.c" "D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/03.data_types_float.c.dir/03.data_types_float.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -1,0 +1,3 @@
+"D:\Develop\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\03.data_types_float.c.dir/objects.a
+D:\Develop\mysys2\mingw64\bin\ar.exe cr CMakeFiles\03.data_types_float.c.dir/objects.a @CMakeFiles\03.data_types_float.c.dir\objects1.rsp
+D:\Develop\mysys2\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\03.data_types_float.c.dir/objects.a -Wl,--no-whole-archive -o 03.data_types_float.c.exe -Wl,--out-implib,lib03.data_types_float.c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\03.data_types_float.c.dir\linklibs.rsp

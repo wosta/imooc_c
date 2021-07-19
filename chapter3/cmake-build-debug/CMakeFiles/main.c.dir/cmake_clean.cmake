@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.c.dir/01.data_type.c.obj"
   "CMakeFiles/main.c.dir/main.c.obj"
   "libmain.c.dll.a"
   "main.c.exe"

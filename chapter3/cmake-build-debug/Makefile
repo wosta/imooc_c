@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = D:\workspace\C\imooc_c\chapter3\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Develop\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -95,6 +84,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\Develop\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,44 +129,204 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main.c
+# Target rules for targets named 01.data_type.c
 
 # Build rule for target.
-main.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main.c
-.PHONY : main.c
+01.data_type.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01.data_type.c
+.PHONY : 01.data_type.c
 
 # fast build rule for target.
-main.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.c.dir\build.make CMakeFiles/main.c.dir/build
-.PHONY : main.c/fast
+01.data_type.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01.data_type.c.dir\build.make CMakeFiles/01.data_type.c.dir/build
+.PHONY : 01.data_type.c/fast
 
-main.obj: main.c.obj
+#=============================================================================
+# Target rules for targets named 02.data_types_char.c
 
-.PHONY : main.obj
+# Build rule for target.
+02.data_types_char.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02.data_types_char.c
+.PHONY : 02.data_types_char.c
+
+# fast build rule for target.
+02.data_types_char.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02.data_types_char.c.dir\build.make CMakeFiles/02.data_types_char.c.dir/build
+.PHONY : 02.data_types_char.c/fast
+
+#=============================================================================
+# Target rules for targets named 04.variable.c
+
+# Build rule for target.
+04.variable.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 04.variable.c
+.PHONY : 04.variable.c
+
+# fast build rule for target.
+04.variable.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04.variable.c.dir\build.make CMakeFiles/04.variable.c.dir/build
+.PHONY : 04.variable.c/fast
+
+#=============================================================================
+# Target rules for targets named 03.data_types_float.c
+
+# Build rule for target.
+03.data_types_float.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 03.data_types_float.c
+.PHONY : 03.data_types_float.c
+
+# fast build rule for target.
+03.data_types_float.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03.data_types_float.c.dir\build.make CMakeFiles/03.data_types_float.c.dir/build
+.PHONY : 03.data_types_float.c/fast
+
+#=============================================================================
+# Target rules for targets named 05.constant.c
+
+# Build rule for target.
+05.constant.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 05.constant.c
+.PHONY : 05.constant.c
+
+# fast build rule for target.
+05.constant.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.constant.c.dir\build.make CMakeFiles/05.constant.c.dir/build
+.PHONY : 05.constant.c/fast
+
+01.data_type.obj: 01.data_type.c.obj
+
+.PHONY : 01.data_type.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.c.dir\build.make CMakeFiles/main.c.dir/main.c.obj
-.PHONY : main.c.obj
+01.data_type.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01.data_type.c.dir\build.make CMakeFiles/01.data_type.c.dir/01.data_type.c.obj
+.PHONY : 01.data_type.c.obj
 
-main.i: main.c.i
+01.data_type.i: 01.data_type.c.i
 
-.PHONY : main.i
+.PHONY : 01.data_type.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.c.dir\build.make CMakeFiles/main.c.dir/main.c.i
-.PHONY : main.c.i
+01.data_type.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01.data_type.c.dir\build.make CMakeFiles/01.data_type.c.dir/01.data_type.c.i
+.PHONY : 01.data_type.c.i
 
-main.s: main.c.s
+01.data_type.s: 01.data_type.c.s
 
-.PHONY : main.s
+.PHONY : 01.data_type.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.c.dir\build.make CMakeFiles/main.c.dir/main.c.s
-.PHONY : main.c.s
+01.data_type.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\01.data_type.c.dir\build.make CMakeFiles/01.data_type.c.dir/01.data_type.c.s
+.PHONY : 01.data_type.c.s
+
+02.data_types_char.obj: 02.data_types_char.c.obj
+
+.PHONY : 02.data_types_char.obj
+
+# target to build an object file
+02.data_types_char.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02.data_types_char.c.dir\build.make CMakeFiles/02.data_types_char.c.dir/02.data_types_char.c.obj
+.PHONY : 02.data_types_char.c.obj
+
+02.data_types_char.i: 02.data_types_char.c.i
+
+.PHONY : 02.data_types_char.i
+
+# target to preprocess a source file
+02.data_types_char.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02.data_types_char.c.dir\build.make CMakeFiles/02.data_types_char.c.dir/02.data_types_char.c.i
+.PHONY : 02.data_types_char.c.i
+
+02.data_types_char.s: 02.data_types_char.c.s
+
+.PHONY : 02.data_types_char.s
+
+# target to generate assembly for a file
+02.data_types_char.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\02.data_types_char.c.dir\build.make CMakeFiles/02.data_types_char.c.dir/02.data_types_char.c.s
+.PHONY : 02.data_types_char.c.s
+
+03.data_types_float.obj: 03.data_types_float.c.obj
+
+.PHONY : 03.data_types_float.obj
+
+# target to build an object file
+03.data_types_float.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03.data_types_float.c.dir\build.make CMakeFiles/03.data_types_float.c.dir/03.data_types_float.c.obj
+.PHONY : 03.data_types_float.c.obj
+
+03.data_types_float.i: 03.data_types_float.c.i
+
+.PHONY : 03.data_types_float.i
+
+# target to preprocess a source file
+03.data_types_float.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03.data_types_float.c.dir\build.make CMakeFiles/03.data_types_float.c.dir/03.data_types_float.c.i
+.PHONY : 03.data_types_float.c.i
+
+03.data_types_float.s: 03.data_types_float.c.s
+
+.PHONY : 03.data_types_float.s
+
+# target to generate assembly for a file
+03.data_types_float.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\03.data_types_float.c.dir\build.make CMakeFiles/03.data_types_float.c.dir/03.data_types_float.c.s
+.PHONY : 03.data_types_float.c.s
+
+04.variable.obj: 04.variable.c.obj
+
+.PHONY : 04.variable.obj
+
+# target to build an object file
+04.variable.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04.variable.c.dir\build.make CMakeFiles/04.variable.c.dir/04.variable.c.obj
+.PHONY : 04.variable.c.obj
+
+04.variable.i: 04.variable.c.i
+
+.PHONY : 04.variable.i
+
+# target to preprocess a source file
+04.variable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04.variable.c.dir\build.make CMakeFiles/04.variable.c.dir/04.variable.c.i
+.PHONY : 04.variable.c.i
+
+04.variable.s: 04.variable.c.s
+
+.PHONY : 04.variable.s
+
+# target to generate assembly for a file
+04.variable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\04.variable.c.dir\build.make CMakeFiles/04.variable.c.dir/04.variable.c.s
+.PHONY : 04.variable.c.s
+
+05.constant.obj: 05.constant.c.obj
+
+.PHONY : 05.constant.obj
+
+# target to build an object file
+05.constant.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.constant.c.dir\build.make CMakeFiles/05.constant.c.dir/05.constant.c.obj
+.PHONY : 05.constant.c.obj
+
+05.constant.i: 05.constant.c.i
+
+.PHONY : 05.constant.i
+
+# target to preprocess a source file
+05.constant.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.constant.c.dir\build.make CMakeFiles/05.constant.c.dir/05.constant.c.i
+.PHONY : 05.constant.c.i
+
+05.constant.s: 05.constant.c.s
+
+.PHONY : 05.constant.s
+
+# target to generate assembly for a file
+05.constant.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.constant.c.dir\build.make CMakeFiles/05.constant.c.dir/05.constant.c.s
+.PHONY : 05.constant.c.s
 
 # Help Target
 help:
@@ -176,10 +336,26 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.c
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... 01.data_type.c
+	@echo ... 02.data_types_char.c
+	@echo ... 03.data_types_float.c
+	@echo ... 04.variable.c
+	@echo ... 05.constant.c
+	@echo ... 01.data_type.obj
+	@echo ... 01.data_type.i
+	@echo ... 01.data_type.s
+	@echo ... 02.data_types_char.obj
+	@echo ... 02.data_types_char.i
+	@echo ... 02.data_types_char.s
+	@echo ... 03.data_types_float.obj
+	@echo ... 03.data_types_float.i
+	@echo ... 03.data_types_float.s
+	@echo ... 04.variable.obj
+	@echo ... 04.variable.i
+	@echo ... 04.variable.s
+	@echo ... 05.constant.obj
+	@echo ... 05.constant.i
+	@echo ... 05.constant.s
 .PHONY : help
 
 

@@ -17,8 +17,8 @@
 					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main.c">
-				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/main.c.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="01.data_type.c">
+				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/01.data_type.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -30,14 +30,14 @@
 					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.c"/>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 01.data_type.c"/>
 					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main.c/fast">
-				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/main.c.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="01.data_type.c/fast">
+				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/01.data_type.c.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -49,17 +49,7 @@
 					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.c/fast"/>
-					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 01.data_type.c/fast"/>
 					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -75,9 +65,183 @@
 					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="02.data_types_char.c">
+				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/02.data_types_char.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 02.data_types_char.c"/>
+					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02.data_types_char.c/fast">
+				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/02.data_types_char.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 02.data_types_char.c/fast"/>
+					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04.variable.c">
+				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/04.variable.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 04.variable.c"/>
+					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04.variable.c/fast">
+				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/04.variable.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 04.variable.c/fast"/>
+					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03.data_types_float.c">
+				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/03.data_types_float.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 03.data_types_float.c"/>
+					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03.data_types_float.c/fast">
+				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/03.data_types_float.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 03.data_types_float.c/fast"/>
+					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05.constant.c">
+				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/05.constant.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 05.constant.c"/>
+					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05.constant.c/fast">
+				<Option output="D:/workspace/C/imooc_c/chapter3/cmake-build-debug/05.constant.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="D:/Develop/mysys2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 05.constant.c/fast"/>
+					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/workspace/C/imooc_c/chapter3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Develop/mysys2/mingw64/bin/mingw32-make.exe -f &quot;D:/workspace/C/imooc_c/chapter3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="D:/workspace/C/imooc_c/chapter3/main.c">
-			<Option target="main.c"/>
+		<Unit filename="D:/workspace/C/imooc_c/chapter3/01.data_type.c">
+			<Option target="01.data_type.c"/>
+		</Unit>
+		<Unit filename="D:/workspace/C/imooc_c/chapter3/02.data_types_char.c">
+			<Option target="02.data_types_char.c"/>
+		</Unit>
+		<Unit filename="D:/workspace/C/imooc_c/chapter3/03.data_types_float.c">
+			<Option target="03.data_types_float.c"/>
+		</Unit>
+		<Unit filename="D:/workspace/C/imooc_c/chapter3/04.variable.c">
+			<Option target="04.variable.c"/>
+		</Unit>
+		<Unit filename="D:/workspace/C/imooc_c/chapter3/05.constant.c">
+			<Option target="05.constant.c"/>
 		</Unit>
 		<Unit filename="D:/workspace/C/imooc_c/chapter3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
