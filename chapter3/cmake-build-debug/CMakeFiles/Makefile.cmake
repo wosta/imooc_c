@@ -51,4 +51,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/04.variable.c.dir/DependInfo.cmake"
   "CMakeFiles/03.data_types_float.c.dir/DependInfo.cmake"
   "CMakeFiles/05.constant.c.dir/DependInfo.cmake"
+  "CMakeFiles/06.opreators.c.dir/DependInfo.cmake"
+  "CMakeFiles/07.condition.c.dir/DependInfo.cmake"
   )

@@ -1,7 +1,9 @@
 D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/01.data_type.c.dir
-D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/02.data_types_char.c.dir
 D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/04.variable.c.dir
 D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/03.data_types_float.c.dir
 D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/05.constant.c.dir
+D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/06.opreators.c.dir
+D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/07.condition.c.dir
 D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/workspace/C/imooc_c/chapter3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

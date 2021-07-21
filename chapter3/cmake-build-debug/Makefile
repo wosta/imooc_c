@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = D:\workspace\C\imooc_c\chapter3\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Develop\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -95,6 +84,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\Develop\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -192,6 +192,32 @@ depend:
 05.constant.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.constant.c.dir\build.make CMakeFiles/05.constant.c.dir/build
 .PHONY : 05.constant.c/fast
+
+#=============================================================================
+# Target rules for targets named 06.opreators.c
+
+# Build rule for target.
+06.opreators.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 06.opreators.c
+.PHONY : 06.opreators.c
+
+# fast build rule for target.
+06.opreators.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06.opreators.c.dir\build.make CMakeFiles/06.opreators.c.dir/build
+.PHONY : 06.opreators.c/fast
+
+#=============================================================================
+# Target rules for targets named 07.condition.c
+
+# Build rule for target.
+07.condition.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 07.condition.c
+.PHONY : 07.condition.c
+
+# fast build rule for target.
+07.condition.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07.condition.c.dir\build.make CMakeFiles/07.condition.c.dir/build
+.PHONY : 07.condition.c/fast
 
 01.data_type.obj: 01.data_type.c.obj
 
@@ -328,6 +354,60 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.constant.c.dir\build.make CMakeFiles/05.constant.c.dir/05.constant.c.s
 .PHONY : 05.constant.c.s
 
+06.opreators.obj: 06.opreators.c.obj
+
+.PHONY : 06.opreators.obj
+
+# target to build an object file
+06.opreators.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06.opreators.c.dir\build.make CMakeFiles/06.opreators.c.dir/06.opreators.c.obj
+.PHONY : 06.opreators.c.obj
+
+06.opreators.i: 06.opreators.c.i
+
+.PHONY : 06.opreators.i
+
+# target to preprocess a source file
+06.opreators.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06.opreators.c.dir\build.make CMakeFiles/06.opreators.c.dir/06.opreators.c.i
+.PHONY : 06.opreators.c.i
+
+06.opreators.s: 06.opreators.c.s
+
+.PHONY : 06.opreators.s
+
+# target to generate assembly for a file
+06.opreators.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\06.opreators.c.dir\build.make CMakeFiles/06.opreators.c.dir/06.opreators.c.s
+.PHONY : 06.opreators.c.s
+
+07.condition.obj: 07.condition.c.obj
+
+.PHONY : 07.condition.obj
+
+# target to build an object file
+07.condition.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07.condition.c.dir\build.make CMakeFiles/07.condition.c.dir/07.condition.c.obj
+.PHONY : 07.condition.c.obj
+
+07.condition.i: 07.condition.c.i
+
+.PHONY : 07.condition.i
+
+# target to preprocess a source file
+07.condition.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07.condition.c.dir\build.make CMakeFiles/07.condition.c.dir/07.condition.c.i
+.PHONY : 07.condition.c.i
+
+07.condition.s: 07.condition.c.s
+
+.PHONY : 07.condition.s
+
+# target to generate assembly for a file
+07.condition.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\07.condition.c.dir\build.make CMakeFiles/07.condition.c.dir/07.condition.c.s
+.PHONY : 07.condition.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -341,6 +421,8 @@ help:
 	@echo ... 03.data_types_float.c
 	@echo ... 04.variable.c
 	@echo ... 05.constant.c
+	@echo ... 06.opreators.c
+	@echo ... 07.condition.c
 	@echo ... 01.data_type.obj
 	@echo ... 01.data_type.i
 	@echo ... 01.data_type.s
@@ -356,6 +438,12 @@ help:
 	@echo ... 05.constant.obj
 	@echo ... 05.constant.i
 	@echo ... 05.constant.s
+	@echo ... 06.opreators.obj
+	@echo ... 06.opreators.i
+	@echo ... 06.opreators.s
+	@echo ... 07.condition.obj
+	@echo ... 07.condition.i
+	@echo ... 07.condition.s
 .PHONY : help
 
 
