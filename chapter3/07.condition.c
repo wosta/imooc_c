@@ -2,6 +2,7 @@
 // Created by olive on 2021/7/21.
 //
 #include <stdio.h>
+#include <stdbool.h>
 int main() {
   // Bool
   // true: 1, false:0
