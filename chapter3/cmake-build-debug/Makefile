@@ -207,6 +207,19 @@ depend:
 .PHONY : 06.opreators.c/fast
 
 #=============================================================================
+# Target rules for targets named 08.loop.c
+
+# Build rule for target.
+08.loop.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 08.loop.c
+.PHONY : 08.loop.c
+
+# fast build rule for target.
+08.loop.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08.loop.c.dir\build.make CMakeFiles/08.loop.c.dir/build
+.PHONY : 08.loop.c/fast
+
+#=============================================================================
 # Target rules for targets named 07.condition.c
 
 # Build rule for target.
@@ -218,6 +231,19 @@ depend:
 07.condition.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07.condition.c.dir\build.make CMakeFiles/07.condition.c.dir/build
 .PHONY : 07.condition.c/fast
+
+#=============================================================================
+# Target rules for targets named 09.guess_game.c
+
+# Build rule for target.
+09.guess_game.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 09.guess_game.c
+.PHONY : 09.guess_game.c
+
+# fast build rule for target.
+09.guess_game.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09.guess_game.c.dir\build.make CMakeFiles/09.guess_game.c.dir/build
+.PHONY : 09.guess_game.c/fast
 
 01.data_type.obj: 01.data_type.c.obj
 
@@ -408,6 +434,60 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07.condition.c.dir\build.make CMakeFiles/07.condition.c.dir/07.condition.c.s
 .PHONY : 07.condition.c.s
 
+08.loop.obj: 08.loop.c.obj
+
+.PHONY : 08.loop.obj
+
+# target to build an object file
+08.loop.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08.loop.c.dir\build.make CMakeFiles/08.loop.c.dir/08.loop.c.obj
+.PHONY : 08.loop.c.obj
+
+08.loop.i: 08.loop.c.i
+
+.PHONY : 08.loop.i
+
+# target to preprocess a source file
+08.loop.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08.loop.c.dir\build.make CMakeFiles/08.loop.c.dir/08.loop.c.i
+.PHONY : 08.loop.c.i
+
+08.loop.s: 08.loop.c.s
+
+.PHONY : 08.loop.s
+
+# target to generate assembly for a file
+08.loop.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08.loop.c.dir\build.make CMakeFiles/08.loop.c.dir/08.loop.c.s
+.PHONY : 08.loop.c.s
+
+09.guess_game.obj: 09.guess_game.c.obj
+
+.PHONY : 09.guess_game.obj
+
+# target to build an object file
+09.guess_game.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09.guess_game.c.dir\build.make CMakeFiles/09.guess_game.c.dir/09.guess_game.c.obj
+.PHONY : 09.guess_game.c.obj
+
+09.guess_game.i: 09.guess_game.c.i
+
+.PHONY : 09.guess_game.i
+
+# target to preprocess a source file
+09.guess_game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09.guess_game.c.dir\build.make CMakeFiles/09.guess_game.c.dir/09.guess_game.c.i
+.PHONY : 09.guess_game.c.i
+
+09.guess_game.s: 09.guess_game.c.s
+
+.PHONY : 09.guess_game.s
+
+# target to generate assembly for a file
+09.guess_game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09.guess_game.c.dir\build.make CMakeFiles/09.guess_game.c.dir/09.guess_game.c.s
+.PHONY : 09.guess_game.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -423,6 +503,8 @@ help:
 	@echo ... 05.constant.c
 	@echo ... 06.opreators.c
 	@echo ... 07.condition.c
+	@echo ... 08.loop.c
+	@echo ... 09.guess_game.c
 	@echo ... 01.data_type.obj
 	@echo ... 01.data_type.i
 	@echo ... 01.data_type.s
@@ -444,6 +526,12 @@ help:
 	@echo ... 07.condition.obj
 	@echo ... 07.condition.i
 	@echo ... 07.condition.s
+	@echo ... 08.loop.obj
+	@echo ... 08.loop.i
+	@echo ... 08.loop.s
+	@echo ... 09.guess_game.obj
+	@echo ... 09.guess_game.i
+	@echo ... 09.guess_game.s
 .PHONY : help
 
 

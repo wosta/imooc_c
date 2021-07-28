@@ -77,7 +77,9 @@ all: CMakeFiles/04.variable.c.dir/all
 all: CMakeFiles/03.data_types_float.c.dir/all
 all: CMakeFiles/05.constant.c.dir/all
 all: CMakeFiles/06.opreators.c.dir/all
+all: CMakeFiles/08.loop.c.dir/all
 all: CMakeFiles/07.condition.c.dir/all
+all: CMakeFiles/09.guess_game.c.dir/all
 
 .PHONY : all
 
@@ -93,7 +95,9 @@ clean: CMakeFiles/04.variable.c.dir/clean
 clean: CMakeFiles/03.data_types_float.c.dir/clean
 clean: CMakeFiles/05.constant.c.dir/clean
 clean: CMakeFiles/06.opreators.c.dir/clean
+clean: CMakeFiles/08.loop.c.dir/clean
 clean: CMakeFiles/07.condition.c.dir/clean
+clean: CMakeFiles/09.guess_game.c.dir/clean
 
 .PHONY : clean
 
@@ -260,6 +264,33 @@ CMakeFiles/06.opreators.c.dir/clean:
 .PHONY : CMakeFiles/06.opreators.c.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/08.loop.c.dir
+
+# All Build rule for target.
+CMakeFiles/08.loop.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08.loop.c.dir\build.make CMakeFiles/08.loop.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08.loop.c.dir\build.make CMakeFiles/08.loop.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workspace\C\imooc_c\chapter3\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 08.loop.c"
+.PHONY : CMakeFiles/08.loop.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/08.loop.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\C\imooc_c\chapter3\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/08.loop.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\C\imooc_c\chapter3\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/08.loop.c.dir/rule
+
+# Convenience name for target.
+08.loop.c: CMakeFiles/08.loop.c.dir/rule
+
+.PHONY : 08.loop.c
+
+# clean rule for target.
+CMakeFiles/08.loop.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\08.loop.c.dir\build.make CMakeFiles/08.loop.c.dir/clean
+.PHONY : CMakeFiles/08.loop.c.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/07.condition.c.dir
 
 # All Build rule for target.
@@ -285,6 +316,33 @@ CMakeFiles/07.condition.c.dir/rule: cmake_check_build_system
 CMakeFiles/07.condition.c.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\07.condition.c.dir\build.make CMakeFiles/07.condition.c.dir/clean
 .PHONY : CMakeFiles/07.condition.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/09.guess_game.c.dir
+
+# All Build rule for target.
+CMakeFiles/09.guess_game.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09.guess_game.c.dir\build.make CMakeFiles/09.guess_game.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09.guess_game.c.dir\build.make CMakeFiles/09.guess_game.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\workspace\C\imooc_c\chapter3\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 09.guess_game.c"
+.PHONY : CMakeFiles/09.guess_game.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/09.guess_game.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\C\imooc_c\chapter3\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/09.guess_game.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\C\imooc_c\chapter3\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/09.guess_game.c.dir/rule
+
+# Convenience name for target.
+09.guess_game.c: CMakeFiles/09.guess_game.c.dir/rule
+
+.PHONY : 09.guess_game.c
+
+# clean rule for target.
+CMakeFiles/09.guess_game.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\09.guess_game.c.dir\build.make CMakeFiles/09.guess_game.c.dir/clean
+.PHONY : CMakeFiles/09.guess_game.c.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

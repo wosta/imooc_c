@@ -52,5 +52,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/03.data_types_float.c.dir/DependInfo.cmake"
   "CMakeFiles/05.constant.c.dir/DependInfo.cmake"
   "CMakeFiles/06.opreators.c.dir/DependInfo.cmake"
+  "CMakeFiles/08.loop.c.dir/DependInfo.cmake"
   "CMakeFiles/07.condition.c.dir/DependInfo.cmake"
+  "CMakeFiles/09.guess_game.c.dir/DependInfo.cmake"
   )
